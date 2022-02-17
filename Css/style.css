@@ -1,0 +1,85 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/background.jpg);
+  background-size: cover;
+}
+
+.container {
+  height: 20rem;
+  padding: 3rem;
+  box-sizing: border-box;
+  border-radius: 38px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  min-width: 400px;
+  max-width: 600px;
+  width: 600px;
+}
+input#searchvalue {
+  padding: 1rem;
+  color: white;
+  font-size: 1.2rem;
+  width: 80%;
+  height: 2.5rem;
+  border-radius: 2rem;
+  border: 1px solid white;
+  background: transparent;
+}
+
+.container-top {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 3rem;
+}
+
+button#searchbtn {
+  position: absolute;
+  right: 3.3rem;
+  top: 0.4rem;
+  color: white;
+  background: transparent;
+  cursor: pointer;
+  font-size: 1.6rem;
+  border: none;
+}
+#cityText{
+  display: none;
+}
+#cityText.showcity{
+  display: block;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.details h2{
+    font-weight: 200;
+}
+.info {
+  display: flex;
+  align-items: center;
+  height: 3.5rem;
+}
+.info h1{
+    font-weight:400;
+    margin: 0;
+}
+svg.svg-inline--fa.fa-cloud {
+  padding: 1rem;
+  font-size: 2rem;
+}
+#weatherstatus{
+  margin:  0;
+    font-size: 1.4rem;
+}
